@@ -6,46 +6,46 @@ author: Kha Nam Tran
 
 created: 28/08/2025
 
-last modified: 28/08/2025
+last modified: 4/09/2025
 
-description: lab04.html
+description: lab04.html with external CSS
 
 */
 
-h1 {
+h1 { /*Applies to h1*/
     color: purple;
     font-size: 2em;
     font-weight: bold; /* Title change to Purple, Bold, and double Sized*/
 }
 
-* {
+* { /*Applies to all classes*/
     font-family: calibri, sans-serif; /*Changes all(*) to Calibri*/
     color: #2f4f4f
 }
 
-h2 {
+h2 { /*Applies to h2*/
     color: rgb(0,128,128);
     font-weight:bold;
     font-size: 1.5em /* Changes h2 font with RGB, Font Weight, and Font Size*/
 }
 
-aside, footer {
+aside, footer { /*Applies to both aside & footer*/
     font-style: italic /* Makes all aside and footer text into italics*/
 }
 
-h1,h2,h3 {
+h1,h2,h3 { /*Applies to headings 1-3*/
     font-family: arial, sans-serif; /* 1-3 Headings use different fonts*/
 }
 
-table, th, td {
+table, th, td { /*Applies to table headers and data*/
     border: 1px solid black; /* Table header and data use border*/
 }
 
-#introduction {
+#introduction { /*specific element with unique id*/
     text-align: center; /* Aligns id=introduction text center*/
 }
 
-#images {
+#images { /*links with id: images*/
     text-align : center; /* image with id is centered*/
 }
 
@@ -53,26 +53,26 @@ table, th, td {
     color: red; /* change specific text to red*/
 }
 
-.special {
+.special { /*specific class*/
     color: darkorange;
     font-weight: bold;
 }
 
-.tablemonth {
+.tablemonth { /*specific class*/
     text-align: right; /* tablemonth id text aligns to right*/
 }
 
-nav a {
+nav a { /*links to nav/a*/
     text-decoration: none;
     padding:0.2em 0.6em;
     border: 4px solid #ccc /* modifies attribute of navigational bar*/
 }
 
-ol ul {
+ol ul { /*links to all orderlist-unordered list*/
     list-style-type: square; /* changes all unordered list in ordered list to use bullet points square*/
 }
 
-nav a:hover {
+nav a:hover { /*Tansistion when hovered over*/
     background-color: lightblue;
     border: darkblue;
     transition: color 0.5s;
